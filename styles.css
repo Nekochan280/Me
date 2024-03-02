@@ -13,12 +13,18 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
+    display: flex; /* Use flexbox to center the columns */
+    justify-content: center; /* Center the columns horizontally */
 }
 
 .contact-card .left-column {
     background-color: #4a90e2; /* Blue background */
     text-align: center;
     padding: 20px;
+    flex: 1; /* Grow to fill available space */
+    display: flex; /* Nested flexbox to center the profile */
+    justify-content: center; /* Center the profile horizontally */
+    align-items: center; /* Center the profile vertically */
 }
 
 .contact-card .left-column .profile {
@@ -32,6 +38,7 @@ body {
 
 .contact-card .right-column {
     padding: 20px;
+    flex: 2; /* Grow to fill available space */
 }
 
 .contact-card .right-column h1,
@@ -60,3 +67,4 @@ body {
 .contact-card .right-column .social-connection .social-link:hover {
     background-color: #357bd8; /* Darker blue on hover */
 }
+
