@@ -21,11 +21,7 @@ body {
     background-color: #4a90e2; /* Blue background */
     text-align: center;
     padding: 20px;
-    flex: 1; /* Grow to fill available space */
-    display: flex; /* Nested flexbox to center the profile */
-    justify-content: center; /* Center the profile horizontally */
-    align-items: flex-start; /* Align the profile picture to the top */
-    flex-direction: column; /* Align the profile picture and text in a column */
+    max-width: 50%; /* Limit the width */
 }
 
 .contact-card .left-column .profile {
@@ -39,7 +35,8 @@ body {
 
 .contact-card .right-column {
     padding: 20px;
-    flex: 1; /* Grow to fill available space */
+    max-width: 50%; /* Limit the width */
+    box-sizing: border-box; /* Include padding and border in the width */
     display: flex; /* Use flexbox to center text */
     flex-direction: column; /* Align text in column */
     justify-content: center; /* Center text vertically */
@@ -58,18 +55,5 @@ body {
 
 .contact-card .right-column .social-connection .social-link {
     color: #fff;
-    background-color: #4a90e2; /* Blue background for social links */
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-right: 10px;
-    transition: background-color 0.3s;
-}
-
-.contact-card .right-column .social-connection .social-link:hover {
-    background-color: #357bd8; /* Darker blue on hover */
-}
+    background-color
 
