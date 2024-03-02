@@ -31,8 +31,8 @@ body {
     border-radius: 50%;
     border: 4px solid #fff;
     box-shadow: 0 0 0 4px #fff; /* Smaller shadow */
-    width: 120px; /* Smaller width */
-    height: 120px; /* Smaller height */
+    width: 420px; /* Smaller width */
+    height: 420px; /* Smaller height */
 }
 
 .contact-card .right-column {
