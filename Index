@@ -5,27 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Card</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff; /* White background */
-            color: #6a1b9a; /* Main text color - purple */
+            background-color: #f0f5f9; /* Light blue background */
+            color: #333; /* Main text color - dark grey */
         }
 
         .contact-card {
             max-width: 800px;
             margin: 20px auto;
-            background-color: #f3e5f5; /* Light purple background */
+            background-color: #fff; /* White background */
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             overflow: hidden;
         }
 
         .contact-card .left-column {
-            background-color: #ba68c8; /* Darker purple background */
+            background-color: #4a90e2; /* Blue background */
             text-align: center;
             padding: 20px;
         }
@@ -50,12 +51,12 @@
         .contact-card .right-column .contact,
         .contact-card .right-column ul li,
         .contact-card .right-column ul li span {
-            color: #6a1b9a; /* Purple text color */
+            color: #333; /* Dark grey text color */
         }
 
         .contact-card .right-column .social-connection .social-link {
             color: #fff;
-            background-color: #6a1b9a; /* Purple background for social links */
+            background-color: #4a90e2; /* Blue background for social links */
             width: 40px;
             height: 40px;
             display: inline-flex;
@@ -67,7 +68,7 @@
         }
 
         .contact-card .right-column .social-connection .social-link:hover {
-            background-color: #4a148c; /* Darker purple on hover */
+            background-color: #357bd8; /* Darker blue on hover */
         }
     </style>
 </head>
@@ -101,13 +102,23 @@
                     <i class="fab fa-github"></i>
                 </a>
             </div>
-            <h3>Experience:</h3>
+            <h3>Soft Skills:</h3>
             <ul>
-                <p><span id="exp">
-                    <span class="title">1.Programming</span>
-                    <span class="date">2.Leadership</span>
-                    <span class="details">3.Time Management.</span>
-                </span></p>
+                <li>Management</li>
+                <li>Leadership</li>
+                <li>Oral and written communication</li>
+                <li>Time Management</li>
+            </ul>
+            <h3>Technical Skills:</h3>
+            <ul>
+                <li>Programming Languages: C, Python</li>
+                <li>Web Technologies: HTML</li>
+              
+            </ul>
+            <h3>Projects:</h3>
+            <ul>
+                <li>Task Management Tool: Provided a user-friendly interface where users can create tasks, set due dates, assign tasks to team members, and track the progress of each task</li>
+                <li>Swasthsangee,Medicalapp: It's key feature is location-based services for finding nearby hospitals or pharmacies and all the basic features are included. </li>
             </ul>
             <h3>Education:</h3>
             <ul>
@@ -115,10 +126,20 @@
                 <p><span id="edu">Intermidiate, PCM with CS, AVM School Bokaro</span></p>
                 <p><span id="edu">Matriculation, AVM School Bokaro</span></p>
             </ul>
+            <h3>Languages:</h3>
+            <ul>
+                <p><span id="lang">Currently learning Japanese, Fluent in English and Hindi</span></p>
+            </ul>
+            <h3>Hobbies:</h3>
+            <ul>
+                <p><span id="hobbies">Painting, Cooking, Playing instruments, Hiking, Camping</span></p>
+            </ul>
         </div>
     </div>
 </body>
 </html>
+
+
 
 
 
