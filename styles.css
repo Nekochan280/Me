@@ -69,6 +69,10 @@ body {
         opacity: 1;
     }
 }
+.social-link {
+    font-size: 24px; /* Adjust the size of the icons as needed */
+}
+
 
 
 
