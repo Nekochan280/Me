@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fde2e4; /* Light pastel pink background */
+    background: linear-gradient(45deg, #ff6b6b, #ff8e8e); /* Gradient background */
     color: #333; /* Main text color - dark grey */
 }
 
@@ -31,8 +31,8 @@ body {
     border-radius: 50%;
     border: 4px solid #fff;
     box-shadow: 0 0 0 4px #fff; /* Smaller shadow */
-    width: 700px; /* Smaller width */
-    height: 700px; /* Smaller height */
+    width: 300px; /* Adjusted width */
+    height: 300px; /* Adjusted height */
     margin-bottom: 20px; /* Add margin to separate from text */
 }
 
@@ -69,10 +69,9 @@ body {
         opacity: 1;
     }
 }
+
 .social-link {
-    font-size: 48px; /* Adjust the size of the icons as needed */
-}
-
-
-
-
+    font-size: 24px; /* Adjust the size of the icons */
+    margin: 0 10px; /* Add margin between icons */
+    color: #fff; /* Icon color */
+    transition: transform 0.3s
