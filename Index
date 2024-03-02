@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* White background */
+            color: #6a1b9a; /* Main text color - purple */
+        }
+
+        .contact-card {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #f3e5f5; /* Light purple background */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .contact-card .left-column {
+            background-color: #ba68c8; /* Darker purple background */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-card .left-column .profile {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            box-shadow: 0 0 0 6px #fff;
+        }
+
+        .contact-card .right-column {
+            padding: 20px;
+        }
+
+        .contact-card .right-column h1,
+        .contact-card .right-column h5,
+        .contact-card .right-column h4,
+        .contact-card .right-column h3,
+        .contact-card .right-column .contact,
+        .contact-card .right-column ul li,
+        .contact-card .right-column ul li span {
+            color: #6a1b9a; /* Purple text color */
+        }
+
+        .contact-card .right-column .social-connection .social-link {
+            color: #fff;
+            background-color: #6a1b9a; /* Purple background for social links */
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-right: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-card .right-column .social-connection .social-link:hover {
+            background-color: #4a148c; /* Darker purple on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-card">
+        <div class="left-column">
+            <div class="profile">
+                <img src="Neha28.jpeg" alt="Profile Picture" class="profile-img">
+                <div class="profile-overlay">
+                    <p class="name">Neha Kumari</p>
+                    <p class="tagline">CcpC</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <h1>Neha Kumari</h1>
+            <h5>Sophomore at Central University of Jharkhand </h5>
+            <h4>Ranchi, Jharkhand, India</h4>
+            <h3>CcpC, CUJ</h3>
+            <p class="contact">Phone: <span class="formate" id="phone">+91 9341159102</span></p>
+            <p class="contact">Personal Email: <span class="formate" id="personal-email">neyahnk@gmail.com</span></p>
+            <p class="contact">College Email: <span class="formate" id="college-email">neha.22190503062@cuj.ac.in</span></p>
+            <div class="social-connection"><!--Section for social media connect as column grid-->
+                <a href="https://www.linkedin.com/in/neyahk/" target="_blank" class="social-link linkedin">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/nehachan2802/" target="_blank" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Nekochan280" target="_blank" class="social-link github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <h3>Experience:</h3>
+            <ul>
+                <p><span id="exp">
+                    <span class="title">Project Manager at GDSC CUJ</span>
+                    <span class="date">2023 - Present</span>
+                    <span class="details">Leading projects and managing teams at Google Developer Student Clubs, Central University of Jharkhand.</span>
+                </span></p>
+            </ul>
+            <h3>Education:</h3>
+            <ul>
+                <p><span id="edu">B.Tech & M.Tech in CSE,CUJ</span></p>
+                <p><span id="edu">Intermidiate, PCM with CS, AVM School Bokaro</span></p>
+                <p><span id="edu">Matriculation, AVM School Bokaro</span></p>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
