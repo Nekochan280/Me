@@ -2,14 +2,14 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7; /* Light grey background */
+    background-color: #fde2e4; /* Light pastel pink background */
     color: #333; /* Main text color - dark grey */
 }
 
 .contact-card {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff; /* White background */
+    background-color: #f9dbe5; /* Light pastel pink background for card */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -31,8 +31,20 @@ body {
     border-radius: 50%;
     border: 4px solid #fff;
     box-shadow: 0 0 0 4px #fff; /* Smaller shadow */
-    width: 800px; /* Smaller width */
-    height: 800px; /* Smaller height */
+    width: 100px; /* Smaller width */
+    height: 100px; /* Smaller height */
+    margin-bottom: 20px; /* Add margin to separate from text */
+}
+
+.contact-card .left-column .profile img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the image */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire area of the container */
+    border-radius: 50%;
 }
 
 .contact-card .right-column {
@@ -57,7 +69,6 @@ body {
         opacity: 1;
     }
 }
-
 
 
 
