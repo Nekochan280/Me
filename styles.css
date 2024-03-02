@@ -31,8 +31,8 @@ body {
     border-radius: 50%;
     border: 4px solid #fff;
     box-shadow: 0 0 0 4px #fff; /* Smaller shadow */
-    width: 300px; /* Adjusted width */
-    height: 300px; /* Adjusted height */
+    width: 700px; /* Adjusted width */
+    height: 700px; /* Adjusted height */
     margin-bottom: 20px; /* Add margin to separate from text */
 }
 
