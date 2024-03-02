@@ -24,7 +24,8 @@ body {
     flex: 1; /* Grow to fill available space */
     display: flex; /* Nested flexbox to center the profile */
     justify-content: center; /* Center the profile horizontally */
-    align-items: center; /* Center the profile vertically */
+    align-items: flex-start; /* Align the profile picture to the top */
+    flex-direction: column; /* Align the profile picture and text in a column */
 }
 
 .contact-card .left-column .profile {
