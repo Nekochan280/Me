@@ -31,18 +31,17 @@ body {
 }
 .contact-card .left-column .profile img {
     position: absolute;
-    top: calc(50% + 8px); /* Shift the image below by 8 pixels */
+    top: calc(50% + 4px); /* Shift the image below by 4 pixels */
     left: 50%;
     transform: translate(-50%, -50%); /* Center the image */
     width: 100%;
     height: 100%;
     object-fit: cover; /* Cover the entire area of the container */
     border-radius: 50%;
-    border: 4px solid #d8b9d8; /* Light purple border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 0 8px #d8b9d8; /* 3D effect */
-
-
+    border: none; /* Remove border */
+    box-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #ff00ff, 0 0 80px #ff00ff; /* Glowing effect */
 }
+
 
 .contact-card .right-column {
     padding: 20px;
