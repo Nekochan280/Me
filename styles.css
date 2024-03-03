@@ -43,11 +43,8 @@ body {
     box-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #ff00ff, 0 0 80px #ff00ff; /* Glowing effect */
 }
 
-.contact-card .left-column {
-    background-color: #333333; /* dark grey background */
-    text-align: center;
-    padding: 20px;
-}
+
+
 
 .contact-card .right-column {
     padding: 20px;
