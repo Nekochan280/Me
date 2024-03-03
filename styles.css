@@ -32,7 +32,7 @@ body {
 
 .contact-card .left-column .profile img {
     position: absolute;
-    top: 50%+4;
+    top: calc(50% + 4px); /* Shift the image below by 4 pixels */
     left: 50%;
     transform: translate(-50%, -50%); /* Center the image */
     width: 100%;
@@ -40,7 +40,8 @@ body {
     object-fit: cover; /* Cover the entire area of the container */
     border-radius: 50%;
     border: none; /* Remove border */
-    box-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #ff00ff, 0 0 80px #ff00ff; /* Glowing effect */
+    box-shadow: 0 0 20px rgba(216, 185, 216, 0.8), 0 0 30px rgba(216, 185, 216, 0.8), 0 0 40px rgba(216, 185, 216, 0.8), 0 0 50px rgba(255, 0, 255, 0.8), 0 0 80px rgba(255, 0, 255, 0.8); /* Glowing effect */
+}
 }
 
 .contact-card .right-column {
