@@ -2,14 +2,14 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fde2e4; /* Light pastel pink background */
+    background-color: #d8b9d8; /* Light purple pink background */
     color: #333; /* Main text color - dark grey */
 }
 
 .contact-card {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #f9dbe5; /* Light pastel pink background for card */
+    background-color: #f0fff4; /* mint green background for card */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -19,7 +19,7 @@ body {
 }
 
 .contact-card .left-column {
-    background-color: #f6a5c0; /* Pastel pink background */
+    background-color: #d8b9d8; /* Pastel pink background */
     text-align: center;
     padding: 20px;
 }
