@@ -76,7 +76,7 @@ p {
 .contact-card .right-column h5,
 .contact-card .right-column h4,
 .contact-card .right-column h3 {
-    opacity: 0;
+    opacity: 1;
     animation: fadeIn 1s forwards;
 }
 
