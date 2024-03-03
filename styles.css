@@ -16,6 +16,7 @@ body {
     display: flex; /* Use flexbox to layout the columns */
     flex-direction: column; /* Stack columns vertically */
     align-items: center; /* Center columns horizontally */
+    text-align: left; /* Left-align text 
 }
 
 
