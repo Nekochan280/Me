@@ -29,7 +29,7 @@ p {
     margin: 20px auto;
     background-color: #333333; /* dark grey background for card */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 80px;
+    border-radius: 40px;
     overflow: hidden;
     display: flex; /* Use flexbox to layout the columns */
     flex-direction: column; /* Stack columns vertically */
