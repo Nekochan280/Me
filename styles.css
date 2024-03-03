@@ -9,7 +9,7 @@ body {
 .contact-card {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #333333; /* Mint green background for card */
+    background-color: #333333; /* dark grey background for card */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -18,11 +18,7 @@ body {
     align-items: center; /* Center columns horizontally */
 }
 
-.contact-card .left-column {
-    background-color: #d8b9d8; /* Pastel pink background */
-    text-align: center;
-    padding: 20px;
-}
+
 
 .contact-card .left-column .profile {
     position: relative;
